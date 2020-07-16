@@ -18,6 +18,10 @@ body {
 .text-white {
   color: white;
 }
+.text-grey {
+  color: #2C3E50;
+
+}
 .text-up {
   text-transform: uppercase;
 }
@@ -84,7 +88,6 @@ body {
 /* Main */
 /* Portfolio */
 .title-section {
-  color: #2C3E50;
   font-size: 3rem;
   font-weight: 700;
   line-height: 2.5rem;
@@ -100,6 +103,16 @@ body {
 /* About */
 .about {
   background-color: #1ABC9C;
+}
+.btn-download {
+  margin: 25px 0;
+  padding: 16px 28px;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.icon-download {
+  margin-right: 10px;
 }
 /* /About */
 /* Contact */
