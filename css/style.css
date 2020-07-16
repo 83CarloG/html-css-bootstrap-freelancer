@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
 }
 /* Mix */
 .p_top_80 {
@@ -82,15 +83,23 @@ body {
 }
 /* Main */
 /* Portfolio */
+.title-section {
+  color: #2C3E50;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+.portfolio {
+  padding: 96px 0px;
+}
 .portfolio__box {
-  height: 100px;
+
   margin-bottom: 20px;
-  background-color: blue;
 }
 /* /Portfolio */
 /* About */
 .about {
-
+  background-color: #1ABC9C;
 }
 /* /About */
 /* Contact */
