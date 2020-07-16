@@ -1,3 +1,6 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 /* Mix */
 .p_top_80 {
   padding-top: 80px;
@@ -11,7 +14,12 @@
 .bg_light_blue {
   background-color: lightblue;
 }
-
+.text-white {
+  color: white;
+}
+.text-up {
+  text-transform: uppercase;
+}
 .wrapper_small {
   max-width: 900px;
   margin: auto;
@@ -25,9 +33,13 @@
   left: 0;
   z-index: 1;
   height: 70px;
-  background-color: blue;
+  background-color: #2C3E50;
   color: white;
   line-height: 70px;
+}
+.logo {
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 .links {
   list-style: none;
@@ -35,6 +47,10 @@
 .links__item {
   display: inline-block;
   margin: auto 15px;
+}
+.header-links {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 /* Jumbotron */
 .jumbo {
