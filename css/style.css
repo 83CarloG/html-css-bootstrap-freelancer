@@ -55,7 +55,7 @@ body {
 /* Jumbotron */
 .jumbo {
   margin-top: 70px;
-  background-color: green;
+  background-color: #1ABC9C;
   padding: 70px 0;
 }
 .jumbo__text {
@@ -64,7 +64,22 @@ body {
   padding: 0 15px;
   text-align: center;
 }
-
+.jumbo__img {
+  max-width: 15rem;
+  height: auto;
+  margin-bottom: 48px;
+}
+.jumbo__title {
+  font-size: 64px;
+  font-weight:700;
+}
+.star {
+  margin: 24px 0px;
+}
+.jumbo__job {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
 /* Main */
 /* Portfolio */
 .portfolio__box {
