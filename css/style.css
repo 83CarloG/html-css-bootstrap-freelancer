@@ -1,27 +1,80 @@
-.portfolio__item {
-  height: 150px;
-  max-width: 100%;
-
+/* Mix */
+.p_top_80 {
+  padding-top: 80px;
 }
-.title {
-  width: 80%;
-  margin: auto;
+.p_bottom_80 {
+  padding-bottom: 80px;
+}
+.bg_green {
+  background-color: lightgreen;
+}
+.bg_light_blue {
+  background-color: lightblue;
+}
 
+.wrapper_small {
+  max-width: 900px;
+  margin: auto;
+}
+/* Header */
+/* Header top */
+.header__top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 70px;
+  background-color: blue;
+  color: white;
+  line-height: 70px;
+}
+.links {
+  list-style: none;
+}
+.links__item {
+  display: inline-block;
+  margin: auto 15px;
+}
+/* Jumbotron */
+.jumbo {
+  margin-top: 70px;
+  background-color: green;
+  padding: 70px 0;
+}
+.jumbo__text {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 15px;
   text-align: center;
 }
-.form-group {
-  text-align: left;
+
+/* Main */
+/* Portfolio */
+.portfolio__box {
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: blue;
 }
-.footer__top {
-  height: 150px;
-}
-.red {
-  width: 100%;
-  height: 100%;
-  background: red;
-margin-bottom: 5px;
+/* /Portfolio */
+/* About */
+.about {
 
 }
-.blue {
-  margin-top: 40px;
+/* /About */
+/* Contact */
+
+/* /Contact */
+
+/* Footer */
+/* Footer top */
+
+
+/* Footer bottom */
+.footer__bottom {
+  padding: 20px 0px;
+  background-color: blue;
+  color: white;
 }
+
+/* /Footer */
