@@ -104,12 +104,19 @@ body {
 .about {
   background-color: #1ABC9C;
 }
-.btn-download {
+.btn-section {
   margin: 25px 0;
   padding: 16px 28px;
   font-size: 1.25rem;
+  color: white;
+}
+.btn-transparent {
   background-color: transparent;
   border: 1px solid #fff;
+}
+.btn-green {
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
 }
 .icon-download {
   margin-right: 10px;
