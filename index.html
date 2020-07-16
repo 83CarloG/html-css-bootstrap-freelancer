@@ -4,55 +4,162 @@
     <meta charset=“utf-8”>
     <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css”>
-    <link rel=“stylesheet” href=“css/style.css”>
-    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>bootstrap</title>
   </head>
   <body>
+    <!-- Header -->
     <!-- Static navbar -->
     <nav class="navbar-default">
-      <div class="container container-primary">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">PORTFOLIO<span class="sr-only">(current)</span></a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">CONTACT</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </div>
+      <div class="container-fluid container-primary bg-info text-white">
+        <div class="container">
+          <div class="row">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">PORTFOLIO<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </div>
+      <div/>
     </nav>
     <!-- Main -->
     <main>
+        <!-- Jumbotron -->
+        <div class="jumbotron text-center">
+            <div class="row">
+              <div class="col-xs-4 col-xs-offset-4">
+                <img src="..." alt="..." class="img-circle">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-8 col-xs-offset-2">
+                <h1>START BOOT STRAP</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6 col-xs-offset-3">
+                <p>STELLA</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-8 col-xs-offset-2 text-center">
+                <h3>GRAPHIC ARTIST - WEB DESIGER - ILLUSTRATOR</h3>
+              </div>
+            </div>
+          </div>
+            <!-- Portfolio -->
+              <div class="portfolio">
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, consequatur.</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <p>STELLA<p>
+                    </div>
+                  </div>
 
-      <div class="jumbotron">
-        <div class="container text-center">
+                    <div class="row">
+                      <div class="col-xs-12 col-md-6 col-lg-4 portfolio__item"><div class="red"></div></div>
+                      <div class="col-xs-12 col-md-6 col-lg-4 portfolio__item"><div class="red"></div></div>
+                      <div class="col-xs-12 col-md-6 col-lg-4 portfolio__item"><div class="red"></div></div>
+                    </div>
+                    <div class="row blue">
+                      <div class="col-xs-12 col-md-6 col-lg-4 portfolio__item"><div class="red"></div></div>
+                      <div class="col-xs-12 col-md-6 col-lg-4 portfolio__item"><div class="red"></div></div>
+                      <div class="col-xs-12 col-md-6 col-lg-4 portfolio__item"><div class="red"></div></div>
+
+
+                  </div>
+                </div>
+            <!-- /Portfolio -->
+            <!-- About -->
+            <div class="container text-center">
+              <div class="title">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <h3>About</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <p>Stella</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-md-6 about__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quo, vero sit quia itaque harum numquam est optio minima perferendis libero molestiae corrupti incidunt assumenda obcaecati nihil sequi voluptatem explicabo.
+                  </div>
+                  <div class="col-xs-12 col-md-6 about__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quo, vero sit quia itaque harum numquam est optio minima perferendis libero molestiae corrupti incidunt assumenda obcaecati nihil sequi voluptatem explicabo.
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- /About -->
+              <!-- Contact-me -->
+              <div class="container">
+
+                <div class="title">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <h3>Contact Me</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <p class="stella">Stella</p>
+                    </div>
+                  </div>
+                  <div class="contactme__form">
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+                      </div>
+                      <textarea class="form-control" rows="3"></textarea>
+                      <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                  </div>
+                </div>
+
+            <!-- /Contact-me -->
+    </main>
+    <footer>
+      <div class="footer__top">
+        <div class="container">
           <div class="row">
-            <div class="col-xs-4 col-xs-offset-4">
-              <img src="..." alt="..." class="img-circle">
+            <div class="col-xs-12 col-md-4 col-md4">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed omnis explicabo, saepe, non a alias porro. Dolores ab reiciendis libero?</p>
+            </div>
+            <div class="col-xs-12 col-md-4 col-md4">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed omnis explicabo, saepe, non a alias porro. Dolores ab reiciendis libero?</p>
+            </div>
+            <div class="col-xs-12 col-md-4 col-md4">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed omnis explicabo, saepe, non a alias porro. Dolores ab reiciendis libero?</p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-xs-8 col-xs-offset-2">
-              <h1>START BOOT STRAP</h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-6 col-xs-offset-3">
-              <p>...</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-8 col-xs-offset-2 text-center">
-              <h3>GRAPHIC ARTIST - WEB DESIGER - ILLUSTRATOR</h3>
+          <div class="footer__bottom text-center">
+            <div class="row">
+              <div class="col-xs-12">
+                <p>Copyright</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </main>
+    </footer>
   </body>
 </html>

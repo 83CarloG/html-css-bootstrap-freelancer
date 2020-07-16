@@ -1,0 +1,27 @@
+.portfolio__item {
+  height: 150px;
+  max-width: 100%;
+
+}
+.title {
+  width: 80%;
+  margin: auto;
+
+  text-align: center;
+}
+.form-group {
+  text-align: left;
+}
+.footer__top {
+  height: 150px;
+}
+.red {
+  width: 100%;
+  height: 100%;
+  background: red;
+margin-bottom: 5px;
+
+}
+.blue {
+  margin-top: 40px;
+}
