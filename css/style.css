@@ -29,6 +29,35 @@ body {
   max-width: 900px;
   margin: auto;
 }
+.star {
+  margin-bottom: 20px;
+}
+.fa-star {
+  font-size: 3rem;
+  vertical-align: middle;
+  line-height: 50px;
+  color: white;
+}
+.fa-star--grey {
+  color: #2C3E50;
+}
+.divider {
+  display: inline-block;
+  width: 100%;
+  max-width: 7rem;
+  height: 0.50rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.divider:first-child {
+  margin-right: 1rem;
+}
+.divider:last-child {
+  margin-left: 1rem;
+}
+.divider--grey {
+  background-color: #2C3E50;
+}
 /* Header */
 /* Header top */
 .header__top {
@@ -78,9 +107,7 @@ body {
   font-size: 64px;
   font-weight:700;
 }
-.star {
-  margin: 24px 0px;
-}
+
 .jumbo__job {
   font-size: 1.5rem;
   font-weight: 500;
@@ -155,5 +182,10 @@ body {
 }
 .fa-facebook-f, .fa-twitter, .fa-linkedin-in {
   color: white;
+}
+.footer__link {
+  color: #1abc9c;
+  text-decoration: none;
+  background-color: transparent;
 }
 /* /Footer */
