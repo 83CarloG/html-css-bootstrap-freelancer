@@ -16,7 +16,7 @@
       <div class="header__top">
         <div class="container">
           <div class="row">
-            <div class="col-xs-6"><a class="logo text-white text-up"href="#">start bootstrap</a></div>
+            <div class="col-xs-6"><a class="logo text-white text-up" href="#">start bootstrap</a></div>
             <div class="col-xs-6 text-right">
               <nav class="visible-md visible-lg">
                 <ul class="links">
@@ -26,9 +26,9 @@
                 </ul>
               </nav>
               <!-- Hamburger -->
-              <div class="visible-xs-inline-block visible-sm-inline-block"
-                <button type="button" class="btn btn-default" aria-label="Left Align">
-                  <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+              <div class="visible-xs-inline-block visible-sm-inline-block">
+                <button type="button" class="btn__hambug btn" aria-label="Left Align">MENU
+                  <span class="hambug__img glyphicon glyphicon-align-justify" aria-hidden="true"></span>
                 </button>
                 <!-- /Hamburger -->
               </div>
@@ -73,32 +73,38 @@
           <div class="row text-center">
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="portfolio__box">
-                <img class="img-responsive img-rounded center-block"src="img/cabin.png" alt="canin image">
+                <div class="overlay"><i class="fas fa-plus"></i></div>
+                <img src="img/cabin.png" alt="canin image">
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="portfolio__box">
-                <img class="img-responsive"src="img/cake.png" alt="canin image">
+                <div class="overlay"><i class="fas fa-plus"></i></div>
+                <img src="img/cake.png" alt="canin image">
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="portfolio__box">
-                <img class="img-responsive img-rounded center-block"src="img/circus.png" alt="canin image">
+                <div class="overlay"><i class="fas fa-plus"></i></div>
+                <img src="img/circus.png" alt="canin image">
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="portfolio__box">
-                <img class="img-responsive img-rounded center-block"src="img/game.png" alt="canin image">
+                <div class="overlay"><i class="fas fa-plus"></i></div>
+                <img src="img/game.png" alt="canin image">
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="portfolio__box">
-                <img class="img-responsive img-rounded center-block"src="img/safe.png" alt="canin image">
+                <div class="overlay"><i class="fas fa-plus"></i></div>
+                <img src="img/safe.png" alt="canin image">
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="portfolio__box">
-                <img class="img-responsive img-rounded center-block"src="img/submarine.png" alt="canin image">
+                <div class="overlay"><i class="fas fa-plus"></i></div>
+                <img src="img/submarine.png" alt="canin image">
               </div>
             </div>
           </div>
@@ -132,7 +138,7 @@
               </div>
             </div>
             <div class="col-xs-12 text-center">
-              <button type="button" class="btn btn-default btn-lg btn-section btn-transparent text-white">
+              <button type="button" class="btn-download btn btn-default btn-lg btn-transparent text-white">
                 <span class="icon-download glyphicon glyphicon-download-alt" aria-hidden="true"></span>Free Download
               </button>
             </div>
@@ -153,26 +159,20 @@
             <div class="row">
               <div class="col-xs-12">
                 <form>
-                  <div class="form-group">
-                    <input type="name" class="form-control" placeholder="Name">
+                  <div class="form-group form-contact">
+                    <input class="input-contact form-control" type="text" placeholder="Name">
                   </div>
-                  <div class="form-group">
-
-                    <input type="email" class="form-control" placeholder="Email">
+                  <div class="form-group form-contact">
+                    <input class="input-contact form-control" type="email" placeholder="Email">
                   </div>
-                  <div class="form-group">
-
-                    <input type="phone" class="form-control" placeholder="Phone number">
+                  <div class="form-group form-contact">
+                    <input class="input-contact form-control" type="number" placeholder="Phone number">
                   </div>
-                  <div class="form-group">
-
-                    <textarea class="form-control" rows="3" placeholder="Messagge"></textarea>
+                  <div class="form-group areatext-contact">
+                    <textarea class="form-control input-contact" rows="7" placeholder="Messagge"></textarea>
                   </div>
-
-
-
                 </form>
-                <button type="button" class="btn btn-default btn-lg btn-section btn-green ">
+                <button type="button" class="btn-send btn btn-default btn-lg btn-section btn-green ">
                   Send
                 </button>
               </div>
@@ -217,7 +217,19 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <small>Copyright © Your Website 2020</small>
+              <small>Copyright © Your Website 2020
+                <br>
+                  <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+                  </a>
+                  <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                            alt="Valid CSS!" />
+                  </a>
+              </small>
             </div>
           </div>
         </div>
